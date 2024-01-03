@@ -7,7 +7,7 @@ default collate utf8_general_ci;`
 
 
 # table creation
-`create table if not exists cursos(
+`create table if not exists book_form(
 id int not null auto_increment, 
 nome varchar(255) not null,
 email	varchar(255) not null,
